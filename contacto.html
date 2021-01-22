@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactanos</title>
+  <link rel="stylesheet" href="./css/download.css">
+</head>
+<body>
+  <header class="header-navbar">
+    <a href="index.html"><h1>Among Us - Tour</h1></a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="descripcion.html">Cómo Jugar</a></li>
+        <li><a href="contacto.html">Descarga</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="ctaction">
+    <div class="ctaction__text-container">
+      <h2 class="ctaction__tittle">Descarga el juego</h2>
+      <p class="ctaction__message">Solo tienes que llenar este formulario</p>
+    </div>
+  </section>
+  <section class="form-section">
+    <div class="form-section__container">
+      <form class="form" action="" method="GET">
+        <div class="form-section__input">
+          <label for="nombre">
+            <span>¿Cuál es tu nombre?</span>
+            <input id="nombre" name="nombre" type="text">
+          </label>
+        </div>
+        <div class="form-section__input">
+          <label for="correo">
+            <span>Correo Electrónico</span>
+            <input id="correo" name="correo" type="email">
+          </label>
+        </div>
+        <div class="form-section__input">
+          <label for="experiencia">
+            <span>¿Que tal te parece el tutorial de la página?</span>
+            <textarea id="experiencia" name="experiencia" cols="30" rows="10" placeholder="Tu mensaje..."></textarea>
+          </label>
+        </div>
+        <div class="form-section__input">
+          <label class="notificaciones" for="notificationes">
+             <input id="notificationes" type="checkbox" name="notificationes">
+             <span>Recibir Notificaciones</span>
+          </label>
+        </div>
+        <div class="form-section__input">
+          <input type="submit" value="Enviar">
+        </div>
+      </form>
+    </div>
+  </section>
+</body>
+</html>

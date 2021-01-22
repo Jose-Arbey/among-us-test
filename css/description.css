@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%; /*1rem - 10px*/
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFF;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.header-navbar {
+  display: flex;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(48, 71, 94, 1);
+  height: 50px;
+}
+
+.header-navbar nav {
+  height: 100%;
+}
+
+.header-navbar ul {
+  height: 100%;
+  display: flex;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.header-navbar ul li {
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-navbar ul li:hover {
+  background-color: rgb(105, 48, 195);
+}
+
+main {
+  padding-bottom: 3rem;
+  background-image: url(../assets/img/milky-way-c.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 9rem;
+}
+
+.main-title h2 {
+  font-size: 3.4rem;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80rem;
+  min-height: 64.5rem;
+  padding: 4rem;
+  margin: 0 auto;
+  background-color: rgba(48, 71, 94, 0.6);
+  border: none;
+  border-radius: 3.3rem;
+}
+
+.card img {
+  display: block;
+  width: 39rem;
+  height: 40rem;
+  border: none;
+  border-radius: 5.2rem;
+  margin-bottom: 3rem;
+}
+
+.card img:hover {
+  cursor: pointer;
+}
+
+.text-container__text {
+  position: absolute;
+  left: 17rem;
+  bottom: 10rem;
+  width: 46rem;
+  height: 13rem;
+  padding: 2rem;
+  background-color: rgba(111, 57, 206, 1);
+  font-size: 2rem;
+  line-height: 2.7rem;
+  border: none;
+  border-radius: 3.6rem;
+}
